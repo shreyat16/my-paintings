@@ -17,6 +17,12 @@ import img11 from "./11.jpg";
 import img12 from "./12.jpg";
 import img13 from "./13.jpg";
 import img14 from "./14.jpg";
+import img15 from "./15.jpg";
+import img16 from "./16.jpg";
+import img17 from "./17.jpg";
+import img18 from "./18.jpg";
+import img19 from "./19.jpg";
+import img20 from "./20.jpg";
 import { Link } from 'react-router-dom';
 
 class App extends Component {
@@ -103,6 +109,56 @@ class App extends Component {
         ]
       },
       {
+        name: "Beach Day",
+        time: 1.5,
+        src: img14,
+        facts: [
+          "Simple but fun one!",
+          "This one makes me miss the beach",
+          "Paints used: Crimson, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
+        ]
+      },
+      {
+        name: "Isle of Palms",
+        time: 1.5,
+        src: img15,
+        facts: [
+          "Another beachy one! I miss traveling.",
+          "I always have trouble painting/drawing palm trees so I'm pretty proud of this one!",
+          "Paints used: Crimson, Lemon Yellow, Pthalo Green, Light Green, Burnt Sienna (Acrylics)"
+        ]
+      },
+      {
+        name: "Under the Sea",
+        time: 3,
+        src: img16,
+        facts: [
+          "My sister's favorite animal is a turtle!",
+          "She rates this 7/10!",
+          "Paints used: Pthalo Blue, Light Green, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
+        ]
+      },
+      {
+        name: "Arizona Sunset",
+        time: 2.5,
+        src: img17,
+        facts: [
+          "The sunset background was surprisingly the hardest part of this painting!",
+          "The background is painted using Dollar Tree brand paints! (They are super hard to make look nice)",
+          "Paints used: Light Green, Pthalo Green, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
+        ]
+      },
+      {
+        name: "Koi Pond",
+        time: 2,
+        src: img18,
+        facts: [
+          "Someday I want to have a koi pond in my backyard!",
+          "Painted this using the 6 colors I have left, I really need to buy new paints.",
+          "Paints used: Crimson, Light Green, Pthalo Green, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
+        ]
+      },
+      {
         name: "Driving at 65",
         time: 2,
         src: img8,
@@ -153,15 +209,25 @@ class App extends Component {
         ]
       },
       {
-        name: "Beach Day",
-        time: 1.5,
-        src: img14,
+        name: "Seahorse",
+        time: 2,
+        src: img19,
         facts: [
-          "Simple but fun one!",
-          "This one makes me miss the beach",
-          "Paints used: Crimson, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
+          "I've been trying to paint animals lately because they're more advanced than landscapes",
+          "Nearly ran out of blue painting this one! (I'm ordering new paint pronto)",
+          "Paints used: Crimson, Light Green, Pthalo Green, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
         ]
       },
+      {
+        name: "Windmills",
+        time: 2,
+        src: img20,
+        facts: [
+          "This one reminds me of living in France because they have a lot of windmills like this in the countryside.",
+          "I took a less realistic and more abstract approach to this landscape painting and I kind of like it!",
+          "Paints used: Pthalo Green, Lemon Yellow, Light Blue, Mars Black, Titanium White (Acrylics)"
+        ]
+      }
     ]
   };
   render(){
