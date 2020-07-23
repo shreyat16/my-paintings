@@ -22,7 +22,7 @@ class Details extends Component {
               ))}
             </ul>
             <div className='card-body'>
-              <Link to='/paintings' className='btn btn-dark'>
+              <Link to='/' className='btn btn-dark'>
                 Go Back
               </Link>
             </div>

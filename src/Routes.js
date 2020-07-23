@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import PaintList from "./PaintList";
 import Details from "./Details";
+import Error from "./Error.js";
 
 class Routes extends Component {
   render() {
@@ -21,6 +22,7 @@ class Routes extends Component {
         />
         <Route exact path='/paintings/:name' render={getPaint} />
         <Redirect to='/paintings' />
+        <Route path="*" component={Error} />
       </Switch>
     );
   }

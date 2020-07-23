@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Routes from "./Routes";
-import Navbar from "./Navbar";
+import { Link } from 'react-router-dom';
 
 import img1 from "./1.jpg";
 import img2 from "./2.jpg";
@@ -23,7 +23,17 @@ import img17 from "./17.jpg";
 import img18 from "./18.jpg";
 import img19 from "./19.jpg";
 import img20 from "./20.jpg";
-import { Link } from 'react-router-dom';
+import img21 from "./21.jpg";
+import img22 from "./22.jpg";
+import img23 from "./23.jpg";
+import img24 from "./24.jpg";
+import img25 from "./25.jpg";
+import img26 from "./26.jpg";
+import img27 from "./27.jpg";
+import img28 from "./28.jpg";
+import img29 from "./29.jpg";
+import img30 from "./30.jpg";
+import img31 from "./31.jpg";
 
 class App extends Component {
   static defaultProps = {
@@ -89,6 +99,60 @@ class App extends Component {
         ]
       },
       {
+        name: "S'mores at Dusk",
+        time: 3.5,
+        src: img24,
+        facts: [
+          "Reminds me of the time I went to the lake with my friends and we made smores",
+          "Paints used: Crimson, Mars Black, Titanium White, Pthalo Green, Lemon Yellow, Light Green, Pthalo Blue, Blue Lake, Van Dyke Brown (Acrylics)."
+        ]
+      },
+      {
+        name: "Clemson",
+        time: 2.5,
+        src: img25,
+        facts: [
+          "I'm getting better at doing shadows when painting architechture and ",
+          "Paints used: Crimson, Mars Black, Titanium White, Lemon Yellow (Acrylics)."
+        ]
+      },
+      {
+        name: "Spill the Beans",
+        time: 3.5,
+        src: img26,
+        facts: [
+          "Spill the Beans is my favorite hangout spot at Clemson",
+          "Paints used:  Crimson, Mars Black, Titanium White, Pthalo Green, Lemon Yellow, Light Green, Pthalo Blue, Blue Lake, Van Dyke Brown (Acrylics)."
+        ]
+      },
+      {
+        name: "Mountain House",
+        time: 3,
+        src: img21,
+        facts: [
+          "Reminds me of an airbnb house my family stayed at for vacation once",
+          "Paints used: Mars Black, Titanium White, Pthalo Green, Lemon Yellow, Light Green, Pthalo Blue, Blue Lake, Van Dyke Brown (Acrylics)."
+        ]
+      },
+      {
+        name: "Airplane Mode",
+        time: 2.5,
+        src: img22,
+        facts: [
+          "Once again, I painted this one because I miss traveling.",
+          "Paints used: Crimson, Mars Black, Titanium White, Pthalo Green, Lemon Yellow, Light Green, Pthalo Blue (Acrylics)."
+        ]
+      },
+      {
+        name: "Cocoa by the Lake",
+        time: 2.5,
+        src: img23,
+        facts: [
+          "I'm getting into painting more autumn paintings because I love the colors",
+          "Paints used:  Crimson, Mars Black, Titanium White, Pthalo Green, Lemon Yellow, Light Green, Pthalo Blue, Blue Lake, Van Dyke Brown (Acrylics)."
+        ]
+      },
+      {
         name: "Peacock",
         time: 3.5,
         src: img13,
@@ -106,6 +170,43 @@ class App extends Component {
           "Probably a very unrealistic depiction of a jellyfish!",
           "Super fun to paint because I just used all the colors I had and went crazy!",
           "Paints used: Honestly any colors will work!"
+        ]
+      },
+      {
+        name: "On the Lake",
+        time: 2,
+        src: img29,
+        facts: [
+          "My sister rates this 6/10!",
+          "Paints used: Mars Black, Titanium White, Pthalo Green, Lemon Yellow, Light Green, Pthalo Green, Pthalo Blue, Blue Lake (Acrylics)"
+        ]
+      },
+      {
+        name: "Pumpkin Picking",
+        time: 3,
+        src: img27,
+        facts: [
+          "My sister rates this 8.5/10!",
+          "Paints used: Crimson, Mars Black, Titanium White, Pthalo Green, Lemon Yellow, Light Green, Pthalo Green, Pthalo Blue, Blue Lake (Acrylics)"
+        ]
+      },
+      {
+        name: "Drive",
+        time: 2,
+        src: img28,
+        facts: [
+          "Probably a very unrealistic depiction of a jellyfish!",
+          "Paints used: Crimson, Mars Black, Titanium White, Pthalo Green, Lemon Yellow, Light Green, Pthalo Green, Pthalo Blue, Blue Lake (Acrylics)"
+        ]
+      },
+      {
+        name: "Seahorse",
+        time: 2,
+        src: img19,
+        facts: [
+          "I've been trying to paint animals lately because they're more advanced than landscapes",
+          "Nearly ran out of blue painting this one! (I'm ordering new paint pronto)",
+          "Paints used: Crimson, Light Green, Pthalo Green, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
         ]
       },
       {
@@ -136,6 +237,24 @@ class App extends Component {
           "My sister's favorite animal is a turtle!",
           "She rates this 7/10!",
           "Paints used: Pthalo Blue, Light Green, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
+        ]
+      },
+      {
+        name: "Sunset City",
+        time: 1.5,
+        src: img30,
+        facts: [
+          "I got new paints! YAY",
+          "Paints used: Crimson, Lemon Yellow, Gray, Burnt Sienna, Titanium White, Mars Black (Acrylics)"
+        ]
+      },
+      {
+        name: "Runway",
+        time: 3,
+        src: img31,
+        facts: [
+          "Surprisingly this one was hard to paint because of how straight the runway had to be",
+          "Paints used: Crimson, Pthalo Blue, Gray, Burnt Sienna, Titanium White, Mars Black (Acrylics)"
         ]
       },
       {
@@ -206,16 +325,6 @@ class App extends Component {
           "Followed a YouTube tutorial for this one!",
           "I painted this one with my sister (she made one too)",
           "Paints used: Crimson, Pthalo Blue, Mars Black, Titanium White (Acrylics)"
-        ]
-      },
-      {
-        name: "Seahorse",
-        time: 2,
-        src: img19,
-        facts: [
-          "I've been trying to paint animals lately because they're more advanced than landscapes",
-          "Nearly ran out of blue painting this one! (I'm ordering new paint pronto)",
-          "Paints used: Crimson, Light Green, Pthalo Green, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
         ]
       },
       {
