@@ -103,7 +103,7 @@ class App extends Component {
         time: 3.5,
         src: img24,
         facts: [
-          "Reminds me of the time I went to the lake with my friends and we made smores",
+          "Reminds me of the time I went to the lake with my friends and we made s'mores",
           "Paints used: Crimson, Mars Black, Titanium White, Pthalo Green, Lemon Yellow, Light Green, Pthalo Blue, Blue Lake, Van Dyke Brown (Acrylics)."
         ]
       },
@@ -112,7 +112,7 @@ class App extends Component {
         time: 2.5,
         src: img25,
         facts: [
-          "I'm getting better at doing shadows when painting architechture and ",
+          "I'm getting better at doing shadows when painting architechture! ",
           "Paints used: Crimson, Mars Black, Titanium White, Lemon Yellow (Acrylics)."
         ]
       },
@@ -121,7 +121,7 @@ class App extends Component {
         time: 3.5,
         src: img26,
         facts: [
-          "Spill the Beans is my favorite hangout spot at Clemson",
+          "Spill the Beans is my favorite hangout spot at Clemson!",
           "Paints used:  Crimson, Mars Black, Titanium White, Pthalo Green, Lemon Yellow, Light Green, Pthalo Blue, Blue Lake, Van Dyke Brown (Acrylics)."
         ]
       },
@@ -139,7 +139,7 @@ class App extends Component {
         time: 2.5,
         src: img22,
         facts: [
-          "Once again, I painted this one because I miss traveling.",
+          "My sister named this one!",
           "Paints used: Crimson, Mars Black, Titanium White, Pthalo Green, Lemon Yellow, Light Green, Pthalo Blue (Acrylics)."
         ]
       },
@@ -195,7 +195,7 @@ class App extends Component {
         time: 2,
         src: img28,
         facts: [
-          "Probably a very unrealistic depiction of a jellyfish!",
+          "This one was interesting because I had to work on making the cars look like they're in motion.",
           "Paints used: Crimson, Mars Black, Titanium White, Pthalo Green, Lemon Yellow, Light Green, Pthalo Green, Pthalo Blue, Blue Lake (Acrylics)"
         ]
       },
@@ -204,7 +204,7 @@ class App extends Component {
         time: 2,
         src: img19,
         facts: [
-          "I've been trying to paint animals lately because they're more advanced than landscapes",
+          "I've been trying to paint animals lately because they're more difficult than landscapes",
           "Nearly ran out of blue painting this one! (I'm ordering new paint pronto)",
           "Paints used: Crimson, Light Green, Pthalo Green, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
         ]
@@ -224,7 +224,6 @@ class App extends Component {
         time: 1.5,
         src: img15,
         facts: [
-          "Another beachy one! I miss traveling.",
           "I always have trouble painting/drawing palm trees so I'm pretty proud of this one!",
           "Paints used: Crimson, Lemon Yellow, Pthalo Green, Light Green, Burnt Sienna (Acrylics)"
         ]
@@ -273,7 +272,6 @@ class App extends Component {
         src: img18,
         facts: [
           "Someday I want to have a koi pond in my backyard!",
-          "Painted this using the 6 colors I have left, I really need to buy new paints.",
           "Paints used: Crimson, Light Green, Pthalo Green, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
         ]
       },
@@ -283,7 +281,6 @@ class App extends Component {
         src: img8,
         facts: [
           "Looks like a super simple painting but actually took me a lot of time because I kept making mistakes",
-          "This one gives me galaxy/space feels even though it has nothing really to do with space",
           "Paints used: Crimson, Lemon Yellow, Cadmium Yellow, Light Green, Pthalo Green, Pthalo Blue, Mars Black, Titanium White (Acrylics)"
         ]
       },
