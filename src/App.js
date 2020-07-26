@@ -34,6 +34,7 @@ import img28 from "./28.jpg";
 import img29 from "./29.jpg";
 import img30 from "./30.jpg";
 import img31 from "./31.jpg";
+import img32 from "./32.jpg";
 
 class App extends Component {
   static defaultProps = {
@@ -200,13 +201,12 @@ class App extends Component {
         ]
       },
       {
-        name: "Seahorse",
-        time: 2,
-        src: img19,
+        name: "Tiger Face",
+        time: 0.66,
+        src: img32,
         facts: [
-          "I've been trying to paint animals lately because they're more difficult than landscapes",
-          "Nearly ran out of blue painting this one! (I'm ordering new paint pronto)",
-          "Paints used: Crimson, Light Green, Pthalo Green, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
+          "Painted this for a 40-minute art challenge!",
+          "Paints used: Crimson, Lemon Yellow, Mars Black, Titanium White, Pthalo Blue (Acrylics)"
         ]
       },
       {
@@ -248,15 +248,6 @@ class App extends Component {
         ]
       },
       {
-        name: "Runway",
-        time: 3,
-        src: img31,
-        facts: [
-          "Surprisingly this one was hard to paint because of how straight the runway had to be",
-          "Paints used: Crimson, Pthalo Blue, Gray, Burnt Sienna, Titanium White, Mars Black (Acrylics)"
-        ]
-      },
-      {
         name: "Arizona Sunset",
         time: 2.5,
         src: img17,
@@ -273,6 +264,15 @@ class App extends Component {
         facts: [
           "Someday I want to have a koi pond in my backyard!",
           "Paints used: Crimson, Light Green, Pthalo Green, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
+        ]
+      },
+      {
+        name: "Runway",
+        time: 3,
+        src: img31,
+        facts: [
+          "Surprisingly this one was hard to paint because of how straight the runway had to be",
+          "Paints used: Crimson, Pthalo Blue, Gray, Burnt Sienna, Titanium White, Mars Black (Acrylics)"
         ]
       },
       {
@@ -332,6 +332,16 @@ class App extends Component {
           "This one reminds me of living in France because they have a lot of windmills like this in the countryside.",
           "I took a less realistic and more abstract approach to this landscape painting and I kind of like it!",
           "Paints used: Pthalo Green, Lemon Yellow, Light Blue, Mars Black, Titanium White (Acrylics)"
+        ]
+      },
+      {
+        name: "Seahorse",
+        time: 2,
+        src: img19,
+        facts: [
+          "I've been trying to paint animals lately because they're more difficult than landscapes",
+          "Nearly ran out of blue painting this one! (I'm ordering new paint pronto)",
+          "Paints used: Crimson, Light Green, Pthalo Green, Lemon Yellow, Mars Black, Titanium White (Acrylics)"
         ]
       }
     ]
